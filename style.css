@@ -1,0 +1,114 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #1b1b3a;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #cfcfe8;
+  margin-bottom: 20px;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.link-menu {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+}
+
+.link-menu:hover {
+  border-bottom: 2px solid #ffcc00;
+}
+
+/* Conteúdo geral */
+.conteudo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.secao {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-secao {
+  color: #1b1b3a;
+  margin-bottom: 15px;
+  border-left: 5px solid #ffcc00;
+  padding-left: 10px;
+}
+
+.texto {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Cards de hobby */
+.caixa-hobby {
+  background-color: #f9f9fb;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.titulo-card {
+  color: #1b1b3a;
+  margin-bottom: 8px;
+}
+
+/* Seção do Neymar */
+.secao-neymar {
+  border-top: 4px solid #ffcc00;
+}
+
+/* Contato */
+.lista-contato {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.item-contato {
+  padding: 6px 0;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #1b1b3a;
+  color: #cfcfe8;
+}
